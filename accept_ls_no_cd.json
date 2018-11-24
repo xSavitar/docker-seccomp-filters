@@ -225,6 +225,11 @@
             "name": "write",
             "action": "SCMP_ACT_ALLOW",
             "args": []
+        },
+        {
+            "name": "rt_sigaction",
+            "action": "SCMP_ACT_ALLOW",
+            "args": []
         }
     ]
 }
