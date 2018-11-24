@@ -1,0 +1,95 @@
+{
+    "defaultAction": "SCMP_ACT_ERRNO",
+    "architectures": [
+        "SCMP_ARCH_X86_64",
+        "SCMP_ARCH_X86",
+        "SCMP_ARCH_X32"
+    ],
+    "syscalls": [
+        {
+            "name": "execve",
+            "action": "SCMP_ACT_ALLOW",
+            "args": []
+        },
+        {
+            "name": "arch_prctl",
+            "action": "SCMP_ACT_ALLOW",
+            "args": []
+        },
+        {
+            "name": "set_tid_address",
+            "action": "SCMP_ACT_ALLOW",
+            "args": []
+        },
+        {
+            "name": "mprotect",
+            "action": "SCMP_ACT_ALLOW",
+            "args": []
+        },
+        {
+            "name": "getuid",
+            "action": "SCMP_ACT_ALLOW",
+            "args": []
+        },
+        {
+            "name": "clock_gettime",
+            "action": "SCMP_ACT_ALLOW",
+            "args": []
+        },
+        {
+            "name": "ioctl",
+            "action": "SCMP_ACT_ALLOW",
+            "args": []
+        },
+        {
+            "name": "stat",
+            "action": "SCMP_ACT_ALLOW",
+            "args": []
+        },
+        {
+            "name": "open",
+            "action": "SCMP_ACT_ALLOW",
+            "args": []
+        },
+        {
+            "name": "fcntl",
+            "action": "SCMP_ACT_ALLOW",
+            "args": []
+        },
+        {
+            "name": "getdents64",
+            "action": "SCMP_ACT_ALLOW",
+            "args": []
+        },
+        {
+            "name": "arch_prctl",
+            "action": "SCMP_ACT_ALLOW",
+            "args": []
+        },
+        {
+            "name": "lstat",
+            "action": "SCMP_ACT_ALLOW",
+            "args": []
+        },
+        {
+            "name": "getdents64",
+            "action": "SCMP_ACT_ALLOW",
+            "args": []
+        },
+        {
+            "name": "close",
+            "action": "SCMP_ACT_ALLOW",
+            "args": []
+        },
+        {
+            "name": "writev",
+            "action": "SCMP_ACT_ALLOW",
+            "args": []
+        },
+        {
+            "name": "exit_group",
+            "action": "SCMP_ACT_ALLOW",
+            "args": []
+        },
+    ]
+}
